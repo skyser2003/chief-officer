@@ -1,7 +1,7 @@
 define poor_student = Character("가난한 학생",color="#000000")
 
 label poor_student_global_1:
-    "빈곤녀 - 공통 1"
+    "가난한 학생 - 공통 1"
     
     menu:
         "선택"
@@ -15,7 +15,7 @@ label poor_student_global_1:
     return
     
 label poor_student_global_2:
-    "빈곤녀 - 공통 2"
+    "가난한 학생 - 공통 2"
     
     menu:
         "선택"
@@ -29,7 +29,7 @@ label poor_student_global_2:
     return
     
 label poor_student_global_3:
-    "빈곤녀 - 공통 3"
+    "가난한 학생 - 공통 3"
     
     menu:
         "선택"
@@ -43,7 +43,7 @@ label poor_student_global_3:
     return
 
 label poor_student_toilet_men_1:
-    "빈곤녀 - 남장실 공통 1"
+    "가난한 학생 - 남장실 공통 1"
     
     menu:
         "선택"
@@ -57,7 +57,7 @@ label poor_student_toilet_men_1:
     return
  
 label poor_student_toilet_women_1:
-    "빈곤녀 -  여장실 공통 1"
+    "가난한 학생 -  여장실 공통 1"
     
     menu:
         "선택"
@@ -71,7 +71,7 @@ label poor_student_toilet_women_1:
     return
  
 label poor_student_toilet_women_2:
-    "빈곤녀 -  여장실 공통 2"
+    "가난한 학생 -  여장실 공통 2"
     
     menu:
         "선택"
@@ -85,7 +85,7 @@ label poor_student_toilet_women_2:
     return
   
 label poor_student_cafeteria_1:
-    "빈곤녀 -  식당 공통 1"
+    "가난한 학생 -  식당 공통 1"
     
     menu:
         "선택"
@@ -99,7 +99,7 @@ label poor_student_cafeteria_1:
     return
   
 label poor_student_cafeteria_2:
-    "빈곤녀 -  식당 공통 2"
+    "가난한 학생 -  식당 공통 2"
     
     menu:
         "선택"
@@ -113,7 +113,7 @@ label poor_student_cafeteria_2:
     return
   
 label poor_student_cafeteria_limit_1:
-    "빈곤녀 -  식당 한정 1"
+    "가난한 학생 -  식당 한정 1"
     
     menu:
         "선택"
