@@ -21,18 +21,3 @@ image robot_3 = "img/heroine/로봇/로봇_3.png"
 
 define love_standard = 100000
 
-init python:
-    heroineImages = {}
-    
-    heroineImages['ghost_1'] = "img/heroine/귀신/귀신_1.png"
-    heroineImages['ghost_2'] = "img/heroine/귀신/귀신_2.png"
-    heroineImages['ghost_3'] = "img/heroine/귀신/귀신_3.png"
-    
-    heroineImages['trainee_1'] = "img/heroine/교생/귀신_1.png"
-    heroineImages['trainee_2'] = "img/heroine/교생/교생_2.png"
-    heroineImages['trainee_3'] = "img/heroine/교생/교생_3.png"
-    
-    heroineImages['robot_1'] = "img/heroine/로봇/로봇_1.png"
-    heroineImages['robot_2'] = "img/heroine/로봇/로봇_2.png"
-    heroineImages['robot_3'] = "img/heroine/로봇/로봇_3.png"
-
