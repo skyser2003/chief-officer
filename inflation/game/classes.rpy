@@ -49,8 +49,3 @@ label afterschool:
     scene bg_afterschool
     "하교"
     return
-    
-label ending:
-    scene bg_ending
-    "엔딩"
-    return

@@ -1,17 +1,11 @@
-<<<<<<< HEAD
-image bg_opening = "img/bg/bg_afterschool.png"
-image bg_class = "img/bg/bg_class.png"
-image bg_gym = "img/bg/bg_gym.png"
-image bg_music_room = "img/bg/bg_music_room.png"
-image bg_afterschool = "img/bg/bg_afterschool.png"
-image bg_ending = "img/bg/bg_class.png"
-=======
-image bg_class = im.Scale("img/bg/bg_class.png",800,600)
-image bg_gym =im.Scale( "img/bg/bg_gym.png",800,600)
-image bg_music_room = im.Scale("img/bg/bg_music_room.png",800,600)
-image bg_infirmary = im.Scale("img/bg/bg_infirmary.jpg",800,600)
-image bg_old_school = im.Scale("img/bg/bg_old_school2.jpg",800,600)
->>>>>>> 07061dd409
+image bg_opening = im.Scale("img/bg/bg_afterschool.png",config.screen_width,config.screen_height)
+image bg_class = im.Scale("img/bg/bg_class.png",config.screen_width,config.screen_height)
+image bg_gym =im.Scale( "img/bg/bg_gym.png",config.screen_width,config.screen_height)
+image bg_music_room = im.Scale("img/bg/bg_music_room.png",config.screen_width,config.screen_height)
+image bg_infirmary = im.Scale("img/bg/bg_infirmary.jpg",config.screen_width,config.screen_height)
+image bg_afterschool = im.Scale("img/bg/bg_afterschool.png",config.screen_width,config.screen_height)
+image bg_old_school = im.Scale("img/bg/bg_old_school2.jpg",config.screen_width,config.screen_height)
+image bg_ending = im.Scale("img/bg/bg_class.png",config.screen_width,config.screen_height)
 
 image trainee_1 = "img/heroine/교생/교생_1.png"
 image trainee_2 = "img/heroine/교생/교생_2.png"
