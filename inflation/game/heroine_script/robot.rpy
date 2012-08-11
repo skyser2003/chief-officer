@@ -28,13 +28,7 @@ label robot_music_room:
     
 label robot_cafeteria:
     return
-    
-label robot_security_office:
-    return
-    
-label robot_old_school:
-    return
-    
+ 
 label robot_ground:
     return
     
