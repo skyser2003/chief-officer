@@ -23,6 +23,13 @@ image sports_woman_1 = "img/heroine/sports_woman/sports_woman_1.png"
 image sports_woman_2 = "img/heroine/sports_woman/sports_woman_2.png"
 image sports_woman_3 = "img/heroine/sports_woman/sports_woman_3.png"
 
+image yo_1 = "img/heroine/yo/yo_1.png"
+image yo_2 = "img/heroine/yo/yo_2.png"
+image yo_3 = "img/heroine/yo/yo_3.png"
+
+image boku_1 = "img/heroine/boku/boku_1.png"
+image boku_2 = "img/heroine/boku/boku_2.png"
+image boku_3 = "img/heroine/boku/boku_3.png"
 
 define love_standard = 100000
 
