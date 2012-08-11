@@ -18,8 +18,10 @@ label activity:
         "체육관":
             call place_gym
             pass
-        "음악식":
+        "음악실":
             call place_music_room
             pass
         
-    return    
+    call after_school
+
+return    
