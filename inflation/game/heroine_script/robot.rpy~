@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 define robot = Character("로봇",color="#000000")
 
 label robot_security_office:
@@ -43,4 +44,6 @@ label robot_infirmary:
     
 label robot_broad:
     return
-
+    
+    
+>>>>>>> asdefary
