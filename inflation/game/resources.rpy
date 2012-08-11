@@ -15,6 +15,10 @@ image ghost_1 = "img/heroine/귀신/귀신_1.png"
 image ghost_2 = "img/heroine/귀신/귀신_2.png"
 image ghost_3 = "img/heroine/귀신/귀신_3.png"
 
+image robot_1 = "img/heroine/로봇/로봇_1.png"
+image robot_2 = "img/heroine/로봇/로봇_2.png"
+image robot_3 = "img/heroine/로봇/로봇_3.png"
+
 define love_standard = 100000
 
 init python:
@@ -28,3 +32,7 @@ init python:
     heroineImages['trainee_2'] = "img/heroine/교생/교생_2.png"
     heroineImages['trainee_3'] = "img/heroine/교생/교생_3.png"
     
+    heroineImages['robot_1'] = "img/heroine/로봇/로봇_1.png"
+    heroineImages['robot_2'] = "img/heroine/로봇/로봇_2.png"
+    heroineImages['robot_3'] = "img/heroine/로봇/로봇_3.png"
+
