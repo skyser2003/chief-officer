@@ -25,6 +25,7 @@ return
 label activity:
     scene bg_class
     
+<<<<<<< HEAD
     $ a = random.randint(0, 11)
     
     if a == 1:
@@ -200,3 +201,17 @@ label activity:
                 call place_ground
                 pass
     return    
+=======
+    menu:
+        "어디로 갈까?"
+        "체육관":
+            call place_gym
+            pass
+        "음악실":
+            call place_music_room
+            pass
+        
+    call after_school
+
+return    
+>>>>>>> 07061dd409
