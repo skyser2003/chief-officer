@@ -190,7 +190,7 @@ screen main_menu:
         has vbox
 
         textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
+        #textbutton _("Load Game") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit(confirm=False)
