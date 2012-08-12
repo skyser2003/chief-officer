@@ -8,14 +8,11 @@ label afterschool:
             if(heroine_love[name] >= love_standard):
                 matching_heroine_love.append(name)
     
-    if(len(matching_heroine_love) == 0):
-        #Bad ending 1.  No heroine in love
-        call bad_ending_1
-    elif(len(matching_heroine_love) > 1):
-        #Bad ending 2.  More than one heroine in love
-        call bad_ending_2
-    else:
+    if len(matching_heroine_love) == 1:
         #Happy ending.  One heroine in love!
         call happy_ending
+    else:
+        # Bad Ending.
+        call bad_ending
     
     return

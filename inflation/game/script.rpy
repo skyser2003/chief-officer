@@ -9,7 +9,7 @@
 init python: 
     import random
     
-    heroine_love = dict(ghost = 100000)
+    heroine_love = dict(ghost = 00000)
     heroine_love.setdefault("boku", 0)
     heroine_love.setdefault("ghost", 0)
     heroine_love.setdefault("robot", 0)
