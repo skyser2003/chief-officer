@@ -1,0 +1,270 @@
+    if a == 3:
+        menu:
+            "??? ???"
+            "???":
+                call place_gym
+                pass
+            "???":
+                call place_toilet
+                pass
+    if a == 4:
+        menu:
+            "??? ???"
+            "???":
+                call place_security_office
+                pass
+            "???":
+                call place_toilet
+                pass
+    if a == 5:
+        menu:
+            "??? ???"
+            "???":
+                call place_old_school
+                pass
+            "???":
+                call place_toilet
+                pass
+    if a == 6:
+        menu:
+            "??? ???"
+            "???":
+                call place_ground
+                pass
+            "???":
+                call place_toilet
+                pass
+    if a == 7:
+        menu:
+            "??? ???"
+            "???":
+                call place_teachers_room
+                pass
+            "???":
+                call place_toilet
+                pass
+    if a == 2:
+        menu:
+            "??? ???"
+            "???":
+                call place_toilet
+                pass
+            "???":
+                call place_gym
+                pass
+    if a == 4:
+        menu:
+            "??? ???"
+            "???":
+                call place_security_office
+                pass
+            "???":
+                call place_gym
+                pass
+    if a == 5:
+        menu:
+            "??? ???"
+            "???":
+                call place_old_school
+                pass
+            "???":
+                call place_gym
+                pass
+    if a == 6:
+        menu:
+            "??? ???"
+            "???":
+                call place_ground
+                pass
+            "???":
+                call place_gym
+                pass
+    if a == 7:
+        menu:
+            "??? ???"
+            "???":
+                call place_teachers_room
+                pass
+            "???":
+                call place_gym
+                pass
+    if a == 2:
+        menu:
+            "??? ???"
+            "???":
+                call place_toilet
+                pass
+            "???":
+                call place_security_office
+                pass
+    if a == 3:
+        menu:
+            "??? ???"
+            "???":
+                call place_gym
+                pass
+            "???":
+                call place_security_office
+                pass
+    if a == 5:
+        menu:
+            "??? ???"
+            "???":
+                call place_old_school
+                pass
+            "???":
+                call place_security_office
+                pass
+    if a == 6:
+        menu:
+            "??? ???"
+            "???":
+                call place_ground
+                pass
+            "???":
+                call place_security_office
+                pass
+    if a == 7:
+        menu:
+            "??? ???"
+            "???":
+                call place_teachers_room
+                pass
+            "???":
+                call place_security_office
+                pass
+    if a == 2:
+        menu:
+            "??? ???"
+            "???":
+                call place_toilet
+                pass
+            "???":
+                call place_old_school
+                pass
+    if a == 3:
+        menu:
+            "??? ???"
+            "???":
+                call place_gym
+                pass
+            "???":
+                call place_old_school
+                pass
+    if a == 4:
+        menu:
+            "??? ???"
+            "???":
+                call place_security_office
+                pass
+            "???":
+                call place_old_school
+                pass
+    if a == 6:
+        menu:
+            "??? ???"
+            "???":
+                call place_ground
+                pass
+            "???":
+                call place_old_school
+                pass
+    if a == 7:
+        menu:
+            "??? ???"
+            "???":
+                call place_teachers_room
+                pass
+            "???":
+                call place_old_school
+                pass
+    if a == 2:
+        menu:
+            "??? ???"
+            "???":
+                call place_toilet
+                pass
+            "???":
+                call place_ground
+                pass
+    if a == 3:
+        menu:
+            "??? ???"
+            "???":
+                call place_gym
+                pass
+            "???":
+                call place_ground
+                pass
+    if a == 4:
+        menu:
+            "??? ???"
+            "???":
+                call place_security_office
+                pass
+            "???":
+                call place_ground
+                pass
+    if a == 5:
+        menu:
+            "??? ???"
+            "???":
+                call place_old_school
+                pass
+            "???":
+                call place_ground
+                pass
+    if a == 7:
+        menu:
+            "??? ???"
+            "???":
+                call place_teachers_room
+                pass
+            "???":
+                call place_ground
+                pass
+    if a == 2:
+        menu:
+            "??? ???"
+            "???":
+                call place_toilet
+                pass
+            "???":
+                call place_teachers_room
+                pass
+    if a == 3:
+        menu:
+            "??? ???"
+            "???":
+                call place_gym
+                pass
+            "???":
+                call place_teachers_room
+                pass
+    if a == 4:
+        menu:
+            "??? ???"
+            "???":
+                call place_security_office
+                pass
+            "???":
+                call place_teachers_room
+                pass
+    if a == 5:
+        menu:
+            "??? ???"
+            "???":
+                call place_old_school
+                pass
+            "???":
+                call place_teachers_room
+                pass
+    if a == 6:
+        menu:
+            "??? ???"
+            "???":
+                call place_ground
+                pass
+            "???":
+                call place_teachers_room
+                pass

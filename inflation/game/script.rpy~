@@ -30,7 +30,7 @@ label activity:
     if a == 1:
         menu:
             "어디로 갈까?"
-            "화장실":
+            "":
                 call place_toilet_men
                 pass
             "체육관":
@@ -46,7 +46,7 @@ label activity:
                 call place_ground
                 pass
             "교무실":
-                call place_teachers_room
+                call place_broad
                 pass
     if a == 2:
         menu:

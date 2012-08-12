@@ -97,4 +97,16 @@ label robot_old_school:
         call robot_old_school_1
         
     return
+    
+label robot_teachers_room:
+    $ a = random.randint(0, 2)
+    
+    if a == 0:
+        call robot_global_1
+    if a == 1:
+        call robot_global_2
+    if a == 2:
+        call robot_global_3
+        
+    return
  

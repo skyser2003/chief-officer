@@ -55,7 +55,7 @@ label ghost_old_school_1:
             pass
         
     return
- 
+
 label ghost_security_office:
     $ a = random.randint(0, 2)
     
@@ -81,4 +81,4 @@ label ghost_old_school:
         call ghost_old_school_1
         
     return
-    
+
