@@ -33,3 +33,5 @@ image boku_3 = "img/heroine/boku/boku_3.png"
 
 define love_standard = 100000
 
+define A = Character("나",color="#FFFFFF")
+
