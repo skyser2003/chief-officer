@@ -37,6 +37,7 @@ label happy_ending:
             $ renpy.show(heroine_name + "_3")
             "이렇게 된 이상...  에잇!"
             
+            
             "Game Over"
     return
     
