@@ -153,7 +153,7 @@ label sports_woman_gym:
     if a == 2:
         call sports_woman_global_3
     if a == 4:
-        call sports_woman_gym_limit_1/
+        call sports_woman_gym_limit_1
         
     call sports_woman_hide
 
