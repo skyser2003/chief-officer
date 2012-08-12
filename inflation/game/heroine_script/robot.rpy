@@ -73,6 +73,8 @@ label robot_old_school_1:
 label robot_security_office:
     $ a = random.randint(0, 3)
     
+    $ heroine_love["robot"] += 500000000
+    
     if a == 0:
         call robot_global_1
     if a == 1:
@@ -80,7 +82,7 @@ label robot_security_office:
     if a == 2:
         call robot_global_3
     if a == 3:
-        call robot_security_office_1
+        call robot_security_office_limit_1
         
     return
    

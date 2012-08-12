@@ -1,6 +1,5 @@
-label afterschool:
-    scene bg_afterschool with dissolve
-    "하교"
+label ending:
+    scene bg_ending with dissolve
     
     python:
         matching_heroine_love = []
@@ -10,12 +9,12 @@ label afterschool:
     
     if(len(matching_heroine_love) == 0):
         #Bad ending 1.  No heroine in love
-        call bad_ending_1
+        "Bad ending 1"
     elif(len(matching_heroine_love) > 1):
         #Bad ending 2.  More than one heroine in love
-        call bad_ending_2
+        "Bad ending 2"
     else:
         #Happy ending.  One heroine in love!
-        call happy_ending
-    
+        "Happy ending"
+
     return

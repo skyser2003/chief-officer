@@ -8,6 +8,8 @@
 
 init python: 
     import random
+    
+    heroine_love = dict(ghost = 100000)
         
 label start:
     call opening
@@ -25,13 +27,13 @@ return
 label activity:
     scene bg_class
 
-    $ a = random.randint(0, 31)
+    $ a = random.randint(1, 1)
     
     if a == 1:
         menu:
             "어디로 갈까?"
-            "":
-                call place_toilet_men
+            "화장실":
+                call place_toilet
                 pass
             "체육관":
                 call place_gym
@@ -46,7 +48,7 @@ label activity:
                 call place_ground
                 pass
             "교무실":
-                call place_broad
+                call place_teachers_room
                 pass
     if a == 2:
         menu:

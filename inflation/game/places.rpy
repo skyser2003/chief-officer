@@ -48,7 +48,7 @@ label place_ground:
     
     return
     
-label place_techears_room:
+label place_teachers_room:
     scene bg_teachers_room
     "교무실이다."
     

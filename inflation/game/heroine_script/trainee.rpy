@@ -85,7 +85,7 @@ label trainee_security_office_1:
     return
        
 label trainee_teachers_room:
-    $ a = random.randint(0, 4)
+    $ a = random.randint(0, 3)
     
     if a == 0:
         call trainee_global_1
@@ -93,15 +93,13 @@ label trainee_teachers_room:
         call trainee_global_2
     if a == 2:
         call trainee_global_3
-    if a == 3:
-        call trainee_toilet_1
     if a == 4:
         call trainee_teachers_room_limit_1
         
     return
          
 label trainee_old_school:
-    $ a = random.randint(0, 4)
+    $ a = random.randint(0, 3)
     
     if a == 0:
         call trainee_global_1
@@ -109,15 +107,13 @@ label trainee_old_school:
         call trainee_global_2
     if a == 2:
         call trainee_global_3
-    if a == 3:
-        call trainee_toilet_1
     if a == 4:
         call trainee_old_school_1
         
     return
         
-label trainee_teachers_roomt:
-    $ a = random.randint(0, 4)
+label trainee_security_office:
+    $ a = random.randint(0, 3)
     
     if a == 0:
         call trainee_global_1
@@ -125,8 +121,6 @@ label trainee_teachers_roomt:
         call trainee_global_2
     if a == 2:
         call trainee_global_3
-    if a == 3:
-        call trainee_toilet_1
     if a == 4:
         call trainee_security_office_1
         
