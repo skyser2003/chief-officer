@@ -14,7 +14,7 @@ init python:
     heroine_love.setdefault("ghost", 0)
     heroine_love.setdefault("robot", 0)
     heroine_love.setdefault("sports_woman", 0)
-    heroine_love.setdefault("robot", 0)
+    heroine_love.setdefault("trainee", 0)
     heroine_love.setdefault("yo", 0)
         
 label start:
@@ -39,292 +39,291 @@ label activity:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
+                return
     if a == 2:
         menu:
             "어디로 갈까?"
             "체육관":
                 call place_gym
-                pass
+                return
             "화장실":
                 call place_toilet
-                pass
+                return
     if a == 3:
         menu:
             "어디로 갈까?"
             "수위실":
                 call place_security_office
-                pass
+                return
             "화장실":
                 call place_toilet
-                pass
+                return
     if a == 4:
         menu:
             "어디로 갈까?"
             "구교사":
                 call place_old_school
-                pass
+                return
             "화장실":
                 call place_toilet
-                pass
+                return
     if a == 5:
         menu:
             "어디로 갈까?"
             "운동장":
                 call place_ground
-                pass
+                return
             "화장실":
                 call place_toilet
-                pass
+                return
     if a == 6:
         menu:
             "어디로 갈까?"
             "교무실":
                 call place_teachers_room
-                pass
+                return
             "화장실":
                 call place_toilet
-                pass
+                return
     if a == 7:
         menu:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
     if a == 8:
         menu:
             "어디로 갈까?"
             "수위실":
                 call place_security_office
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
     if a == 9:
         menu:
             "어디로 갈까?"
             "구교사":
                 call place_old_school
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
     if a == 10:
         menu:
             "어디로 갈까?"
             "운동장":
                 call place_ground
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
     if a == 11:
         menu:
             "어디로 갈까?"
             "교무실":
                 call place_teachers_room
-                pass
+                return
             "체육관":
                 call place_gym
-                pass
+                return
     if a == 12:
         menu:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
     if a == 13:
         menu:
             "어디로 갈까?"
             "체육관":
                 call place_gym
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
     if a == 14:
         menu:
             "어디로 갈까?"
             "구교사":
                 call place_old_school
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
     if a == 15:
         menu:
             "어디로 갈까?"
             "운동장":
                 call place_ground
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
     if a == 16:
         menu:
             "어디로 갈까?"
             "교무실":
                 call place_teachers_room
-                pass
+                return
             "수위실":
                 call place_security_office
-                pass
+                return
     if a == 17:
         menu:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
     if a == 18:
         menu:
             "어디로 갈까?"
             "체육관":
                 call place_gym
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
     if a == 19:
         menu:
             "어디로 갈까?"
             "수위실":
                 call place_security_office
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
     if a == 20:
         menu:
             "어디로 갈까?"
             "운동장":
                 call place_ground
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
     if a == 21:
         menu:
             "어디로 갈까?"
             "교무실":
                 call place_teachers_room
-                pass
+                return
             "구교사":
                 call place_old_school
-                pass
+                return
     if a == 22:
         menu:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
     if a == 23:
         menu:
             "어디로 갈까?"
             "체육관":
                 call place_gym
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
     if a == 24:
         menu:
             "어디로 갈까?"
             "수위실":
                 call place_security_office
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
     if a == 25:
         menu:
             "어디로 갈까?"
             "구교사":
                 call place_old_school
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
     if a == 26:
         menu:
             "어디로 갈까?"
             "교무실":
                 call place_teachers_room
-                pass
+                return
             "운동장":
                 call place_ground
-                pass
+                return
     if a == 27:
         menu:
             "어디로 갈까?"
             "화장실":
                 call place_toilet
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
+                return
     if a == 28:
         menu:
             "어디로 갈까?"
             "체육관":
                 call place_gym
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
+                return
     if a == 29:
         menu:
             "어디로 갈까?"
             "수위실":
                 call place_security_office
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
+                return
     if a == 30:
         menu:
             "어디로 갈까?"
             "구교사":
                 call place_old_school
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
+                return
     if a == 31:
         menu:
             "어디로 갈까?"
             "운동장":
                 call place_ground
-                pass
+                return
             "교무실":
                 call place_teachers_room
-                pass
-
+                return
 
     return    

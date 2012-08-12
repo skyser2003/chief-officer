@@ -1,3 +1,5 @@
+define robot = Character("보쿠소녀",color="#000000")
+
 label boku_global_1:
     "보쿠소녀 - 공통 1"
     
@@ -95,9 +97,19 @@ label boku_ground_limit_1:
             pass
         
     return
-       
+
+label boku_show:
+    show boku_1
+    return
+
+label boku_hide:
+    hide boku_1
+    return
+
 label boku_gym:
     $ a = random.randint(0, 2)
+    
+    call boku_show
     
     if a == 0:
         call boku_global_1
@@ -105,11 +117,15 @@ label boku_gym:
         call boku_global_2
     if a == 2:
         call boku_global_3
+      
+    call boku_hide    
         
     return
           
 label boku_ground:
     $ a = random.randint(0, 6)
+    
+    call boku_show
     
     if a == 0:
         call boku_global_1
@@ -125,6 +141,8 @@ label boku_ground:
         call boku_ground_3
     if a == 6:
         call boku_ground_limit_1
+    
+    call boku_hide    
         
     return
    

@@ -32,7 +32,7 @@ label place_old_school:
     scene bg_old_school
     "구교사다."
 
-    $ list = ['ghost','robot', 'trainee']
+    $ list = ['ghost','robot']
     $ rand = random.randint(0,len(list)-1)
     $ renpy.call_in_new_context(list[rand] + "_old_school")
     

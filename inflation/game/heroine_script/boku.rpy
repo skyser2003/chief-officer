@@ -99,11 +99,21 @@ label boku_ground_limit_1:
     return
 
 label boku_show:
-    show boku_1
+    $ love = heroine_love['boku']
+    
+    if love < 50000:
+        show boku_1
+    elif love < 100000:
+        show boku_2
+    else:
+        show boku_3
+        
     return
 
 label boku_hide:
     hide boku_1
+    hide boku_2
+    hide boku_3
     return
 
 label boku_gym:

@@ -5,7 +5,6 @@ image bg_music_room = im.Scale("img/bg/bg_music_room.png",config.screen_width,co
 image bg_infirmary = im.Scale("img/bg/bg_infirmary.jpg",config.screen_width,config.screen_height)
 image bg_afterschool = im.Scale("img/bg/bg_afterschool.png",config.screen_width,config.screen_height)
 image bg_old_school = im.Scale("img/bg/bg_old_school2.jpg",config.screen_width,config.screen_height)
-image bg_ground = im.Scale("img/bg/bg_ground.png",config.screen_width,config.screen_height)
 image bg_ending = im.Scale("img/bg/bg_class.png",config.screen_width,config.screen_height)
 
 image trainee_1 = "img/heroine/trainee/trainee_1.png"
